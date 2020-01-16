@@ -33,3 +33,6 @@ def login(request):
         name = 'Everyone'
     return HttpResponse('usename is '+ name)
 
+def test(request):
+    return render(request,'test.html',status=200)
+
