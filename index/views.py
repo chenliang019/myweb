@@ -36,3 +36,7 @@ def login(request):
 def test(request):
     return render(request,'test.html',status=200)
 
+from .form import *
+def form(request):
+    product = ProductForm()
+    return render(request,'form.html',locals())

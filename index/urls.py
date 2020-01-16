@@ -7,5 +7,6 @@ urlpatterns = [
     path('download.html',views.download),
     path('index.html',views.huawei),
     path('login.html',views.login),
-    path('test.html',views.test)
+    path('test.html',views.test),
+    path('form.html',views.form)
 ]
